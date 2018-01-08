@@ -19,7 +19,7 @@ Download the [latest version of Qtum core](https://github.com/qtumproject/qtum/r
 
 ```bash
 # NOTE: use the correct link!! The following link is for v0.14.12
-pi@raspberrypi:~ $ wget https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v0.14.12/qtum-0.14.12-arm-linux-gnueabihf.tar.gz
+pi@raspberrypi:~ $ wget https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v0.14.13/qtum-0.14.13-arm-linux-gnueabihf.tar.gz
 ```
 
 
@@ -32,7 +32,7 @@ sudo systemctl stop qtumd.service
 
 Extract the downloaded tarball into the old folder (overwriting the current files).
 ```bash
-pi@raspberrypi:~ $ tar --strip 1 -C ~/qtum-wallet/ -xf ~/qtum-0.14.12-arm-linux-gnueabihf.tar.gz
+pi@raspberrypi:~ $ tar --strip 1 -C ~/qtum-wallet/ -xf ~/qtum-0.14.13-arm-linux-gnueabihf.tar.gz
 ```
 
 Start the `qtumd` service
@@ -44,7 +44,7 @@ pi@raspberrypi:~ $ sudo systemctl start qtumd
 You can check the version using:
 ```bash
 pi@raspberrypi:~ $ qtum-cli --version
-Qtum Core RPC client version v0.14.12.0-73cb16f-dirty
+Qtum Core RPC client version v0.14.13.0-b4e73b7-dirty
 ```
 
 
