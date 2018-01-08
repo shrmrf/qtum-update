@@ -72,6 +72,7 @@ pi@raspberrypi:~ $ qtum-cli -stdin walletpassphrase
 YOUR PASSPHRASE HERE
 9999999999
 true
+<CTRL-D>
 ```
 
 Now, we should be staking again!! 
