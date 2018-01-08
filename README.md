@@ -18,7 +18,7 @@ _I'm assuming that the alias for `qtum-cli` was set. Otherwise, use the full pat
 Download the [latest version of Qtum core](https://github.com/qtumproject/qtum/releases).
 
 ```bash
-# NOTE: use the correct link!! The following link is for v0.14.12
+# NOTE: use the correct link!! The following link is for v0.14.13
 pi@raspberrypi:~ $ wget https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v0.14.13/qtum-0.14.13-arm-linux-gnueabihf.tar.gz
 ```
 
