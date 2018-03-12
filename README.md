@@ -18,8 +18,8 @@ _I'm assuming that the alias for `qtum-cli` was set. Otherwise, use the full pat
 Download the [latest version of Qtum core](https://github.com/qtumproject/qtum/releases).
 
 ```bash
-# NOTE: use the correct link!! The following link is for v0.14.14
-pi@raspberrypi:~ $ wget https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v0.14.14/qtum-0.14.14-arm-linux-gnueabihf.tar.gz
+# NOTE: use the correct link!! The following link is for v0.14.15
+pi@raspberrypi:~ $ wget https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v0.14.15/qtum-0.14.15-arm-linux-gnueabihf.tar.gz
 ```
 
 
@@ -32,7 +32,7 @@ sudo systemctl stop qtumd.service
 
 Extract the downloaded tarball into the old folder (overwriting the current files).
 ```bash
-pi@raspberrypi:~ $ tar --strip 1 -C ~/qtum-wallet/ -xf ~/qtum-0.14.14-arm-linux-gnueabihf.tar.gz
+pi@raspberrypi:~ $ tar --strip 1 -C ~/qtum-wallet/ -xf ~/qtum-0.14.15-arm-linux-gnueabihf.tar.gz
 ```
 
 Start the `qtumd` service
@@ -44,7 +44,7 @@ pi@raspberrypi:~ $ sudo systemctl start qtumd
 You can check the version using:
 ```bash
 pi@raspberrypi:~ $ qtum-cli --version
-Qtum Core RPC client version v0.14.14.0-abcdefg-dirty
+Qtum Core RPC client version v0.14.15.0-abcdefg-dirty
 ```
 
 
