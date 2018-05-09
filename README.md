@@ -1,5 +1,6 @@
 # Introduction
-This is a living document I maintain for common ops I want to do with my raspberry pi. 
+~~This is a living document I maintain for common ops I want to do with my raspberry pi.~~
+_I've stopped staking `QTUM` because I want to do something else now. I'm not maintaining this document anymore but I'll leave it here. You probably will just need to change the version strings_
 
 ## Pre Requisite
 Hopefully you have gone through [setting up Qtum Staking on your Rpi](https://steemit.com/qtum/@cryptominder/qtum-staking-tutorial-using-qtumd-on-a-raspberry-pi-3)
